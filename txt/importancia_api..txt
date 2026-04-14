@@ -1,0 +1,20 @@
+Imagine um restaurante em que o cliente quer fazer seus pedidos com base no que está no cardápio. 
+Mas ele não pode pedir diretamente para o chef de cozinha.
+
+Então, ele interage com o garçom, que é a pessoa que envia as solicitações para a cozinha, para que possam começar a preparar os pedidos.
+
+Assim que o prato estiver pronto, o garçom será responsável por encaminhá-lo até a mesa do cliente, tudo isso de forma organizada.
+
+Essa dinâmica entre cliente, garçom e cozinha reflete o relacionamento essencial em uma API.
+
+Esse relacionamento também define como diferentes componentes de software devem interagir, 
+facilitando a integração entre sistemas e aplicativos, o que pode ser utilizado para diferentes propósitos.
+
+Esse foi só o exemplo aproximado do que seriam as APIs, mas ainda não sabemos o que elas realmente significam, bora entender isso?
+
+O que significa API?
+
+API é um acrônimo em inglês para Application Programming Interface. Em português, significa Interface de Programação de Aplicações.
+
+De forma geral, é um conjunto de padrões, ferramentas e protocolos que permite a criação mais simplificada e segura de plataformas, 
+pois permite a integração e a comunicação de softwares e seus componentes.

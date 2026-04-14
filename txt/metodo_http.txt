@@ -1,0 +1,65 @@
+O que exatamente são os metodos HTTP e como os utilizamos para nos comunicar com os servidores da web?
+
+Os métodos HTTP são verbos ou ações que indicam ao servidor o que queremos fazer com uma página ou um arquivo quando navegamos na internet. 
+Eles definem como uma solicitação deve ser tratada pelo servidor, passando instruções como ver algo, adicionar ou até mesmo apagar.
+
+Os verbos mais comuns são:
+
+GET: usado para solicitar dados de um recurso específico no servidor. Imagine que você quer ver uma página na internet. 
+Então, seu navegador se comunica com o servidor solicitando essa página. Isso é um GET. É como se você estivesse pedindo para ver algo específico.
+
+POST: usado para enviar dados ao servidor, geralmente para criar um novo recurso. 
+Agora, suponha que você está preenchendo um formulário online. 
+Quando você clica em "enviar", seu navegador envia todas as informações que você digitou para o servidor. 
+Isso é um POST. É como se você estivesse criando algo novo para ser guardado.
+
+PUT: usado para atualizar um recurso existente no servidor. 
+O corpo da solicitação contém os dados atualizados do recurso. 
+Vamos dizer que você já tem um perfil em um site e quer mudar alguma informação, como seu endereço de e-mail. 
+Você manda uma mensagem para o servidor com essa mudança. Isso é um PUT. Você está atualizando algo que já existe.
+
+PATCH: usado para aplicar modificações parciais a um recurso. 
+O corpo da solicitação contém as modificações que devem ser aplicadas. 
+Às vezes, você só quer fazer uma pequena alteração, como corrigir um erro de digitação. 
+Então, você manda uma mensagem para o servidor com essa mudança pequena. Isso é um PATCH e você está fazendo uma alteração parcial
+
+Lembrando: PUT é usado para substituir um recurso completo, 
+enquanto PATCH é usado para fazer modificações parciais em um recurso.
+
+DELETE: usado para excluir um recurso específico no servidor. 
+Imagine que você quer excluir uma foto que postou em uma rede social. 
+Você manda uma mensagem para o servidor pedindo para apagar essa foto. 
+Isso é um DELETE. Você está removendo algo.
+
+OPTIONS: usado para obter informações sobre as opções de comunicação disponíveis para o recurso de destino. 
+E se você quiser saber quais ações pode fazer em um site? Por exemplo, se pode editar, excluir, ou só visualizar. 
+Você manda uma mensagem perguntando isso para o servidor. Isso é um OPTIONS. Você está perguntando quais opções estão disponíveis.
+
+Todas essas solicitações feitas durante as requisições são processadas pelo servidor, que responde de acordo com o método utilizado e o estado do recurso solicitado. 
+E como podemos fazer requisições?
+
+Fizemos solicitações trabalhando diretamente com a API ROOT do Django REST Framework e também utilizando o ThunderClient, 
+que é uma extensão para VSCode que oferece uma interface simples e intuitiva para fazer solicitações HTTP.
+
+Porém, existem várias ferramentas que você pode usar para fazer solicitações HTTP e interagir com APIs usando diferentes verbos. 
+Algumas das ferramentas mais populares incluem:
+
+Postman: o Postman é uma ferramenta amplamente utilizada para teste de API e desenvolvimento. 
+Ele fornece uma interface gráfica fácil de usar para criar e enviar solicitações HTTP para diferentes métodos e analisar as respostas do servidor. 
+Você pode se aprofundar nessa ferramenta com a leitura do artigo ‘Postman: saiba como instalar e dar seus primeiros passos’.
+
+cURL: o cURL é uma ferramenta de linha de comando amplamente utilizada para transferência de dados com URLs. 
+Ele suporta uma variedade de protocolos, incluindo HTTP, HTTPS, FTP, e outros. Você pode usar o cURL para enviar solicitações HTTP diretamente da linha de comando. 
+Você pode se aprofundar nessa ferramenta com a leitura do artigo ‘Curl: como usar e principais opções’.
+
+Insomnia: assim como o Postman, o Insomnia é outra ferramenta popular para teste de API e desenvolvimento. 
+Ele oferece uma interface gráfica intuitiva para criar e enviar solicitações HTTP, bem como visualizar e depurar respostas do servidor. 
+Você pode fazer o download dessa ferramenta na sua página oficial.
+
+HTTPie: o HTTPie é uma ferramenta de linha de comando moderna para fazer solicitações HTTP. 
+Ele fornece uma sintaxe simples e intuitiva para enviar solicitações HTTP e visualizar as respostas do servidor diretamente do terminal.
+Você pode aprender mais sobre essa ferramente em sua página oficial.
+
+E olha que essas são apenas algumas das muitas ferramentas disponíveis para fazer solicitações HTTP e interagir com APIs usando diferentes métodos. 
+A escolha da ferramenta depende das suas preferências pessoais, do sistema operacional 
+que você está usando e das necessidades específicas do seu projeto.
