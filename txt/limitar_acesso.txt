@@ -1,0 +1,28 @@
+Limitar as requisições de uma API é uma prática importante para garantir a disponibilidade, segurança e desempenho do seu serviço. 
+Dentre os diversos motivos pelos quais é fundamental fazer essa limitação, temos:
+
+Prevenção contra sobrecarga
+Limitar o número de requisições que uma API pode receber em um determinado período de tempo ajuda a evitar sobrecargas nos servidores. 
+Isso é especialmente importante em momentos de pico de tráfego, 
+como quando sites passam por campanhas promocionais, lançamentos de produtos ou eventos específicos.
+
+Proteção contra Ataques de Negacão de Serviço (DDoS)
+Ao impor limites de requisições, você reduz a vulnerabilidade da sua API a ataques de negação de serviço (DDoS). 
+Limitar a taxa de requisições de um único IP ou de uma única fonte pode ajudar a mitigar os efeitos do ataque DDoS, protegendo a disponibilidade da sua API.
+
+Controle de acesso
+Ao definir limites de requisições para diferentes tipos de usuários (por exemplo, usuários autenticados versus usuários não autenticados), 
+você pode controlar o acesso à sua API e garantir uma distribuição justa dos recursos do servidor. 
+Isso pode ser útil para garantir uma experiência equitativa para todos os usuários e evitar abusos.
+
+Otimização de desempenho
+Limitar as requisições também pode contribuir para a otimização do desempenho da API. 
+Ao controlar o número de requisições que o servidor precisa processar em um determinado momento, 
+você pode reduzir a carga sobre o sistema e melhorar o tempo de resposta para todas as requisições.
+
+Conformidade com políticas e regulamentações
+Em alguns casos, limitar as requisições pode ser uma exigência regulatória ou uma prática recomendada para cumprir políticas de segurança e privacidade de dados. 
+Garantir que sua API esteja em conformidade com essas políticas é essencial para evitar penalidades legais e proteger a reputação da sua empresa.
+
+Ao implementar limites de requisições de forma inteligente, você pode proteger sua API contra sobrecargas, 
+ataques maliciosos e abusos de uso, proporcionando uma experiência confiável e satisfatória aos usuários.

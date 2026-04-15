@@ -130,6 +130,14 @@ REST_FRAMEWORK = {
         "rest_framework.authentication.BasicAuthentication"
     ],
     'DEFAULT_PERMISSION_CLASSES': [
-        'rest_framework.permissions.IsAuthenticated',
-    ]
+        'rest_framework.permissions.DjangoModelPermissions',
+    ],
+    'DEFAULT_THROTTLE_CLASSES': [
+        'rest_framework.throttling.AnonRateThrottle',
+        'rest_framework.throttling.UserRateThrottle'
+    ],
+    'DEFAULT_THROTTLE_RATES': {
+        'anon': '2/day',
+        'user': '5/day'
+    }
 }
