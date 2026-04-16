@@ -1,0 +1,36 @@
+A docstring é uma parte essencial da documentação do código em Python, 
+pois fornece uma referência rápida e acessível para outras pessoas desenvolvedoras trabalharem no mesmo código. 
+Ela é uma convenção de documentação usada para descrever funções, métodos, classes ou módulos.
+
+Além disso, muitas ferramentas de documentação e IDEs podem extrair automaticamente as informações da docstring 
+para fornecer ajuda contextual e sugestões enquanto se trabalha com o código, como é o caso do Swagger.
+
+Uma boa docstring não apenas descreve uma funcionalidade, 
+mas também fornece exemplos de uso e qualquer informação adicional relevante para garantir que os usuários possam entender e usar o código de forma eficaz. 
+A sua estrutura é formada por uma string colocada no início de um módulo, função, 
+classe ou método, entre três aspas simples ou duplas, e serve como uma descrição do que a entidade faz, 
+como usá-la e quais são seus parâmetros e retornos.
+
+Desse modo, ao escrever uma docstring, é importante considerar diversos pontos, entre eles:
+
+Propósito da função ou método: explique sucintamente o que a função ou método faz. Qual é o seu propósito principal?
+
+Parâmetros: 
+liste e descreva cada parâmetro que a função ou método recebe. 
+Inclua informações sobre os tipos esperados, valores padrão (se houver) e qualquer outra informação relevante.
+
+Valor de retorno: 
+descreva o que a função ou método retorna, incluindo o tipo de retorno e quaisquer valores especiais que possam ser retornados em casos excepcionais.
+
+Comportamento: explique qualquer efeito colateral que a função ou método possa ter, como alterar o estado de objetos.
+
+Exemplos de uso: forneça exemplos claros e concisos de como chamar a função ou método e o que esperar como resultado.
+
+Limitações ou restrições: se houver restrições de uso ou casos em que a função ou método não deve ser chamado, deixe isso claro na docstring.
+
+Notas adicionais: 
+inclua outras informações relevantes que possam ajudar os usuários a entender e utilizar corretamente a função ou método. 
+Isso pode incluir precauções de segurança, 
+considerações de desempenho ou qualquer outra coisa que seja importante para o uso adequado da função ou método.
+
+Seguindo essas orientações, você pode criar docstrings claras e informativas, que ajudam usuários (inclusive você, no futuro) a entender e utilizar seu código de forma eficaz.
