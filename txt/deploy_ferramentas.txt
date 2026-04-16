@@ -1,0 +1,88 @@
+Escolher a plataforma de deploy adequada requer uma análise cuidadosa das necessidades específicas do seu projeto e das características oferecidas por cada opção. 
+Deve ser levado em consideração diversos pontos para tomar uma decisão que suporte o crescimento e o sucesso contínuo do seu aplicativo. 
+Alguns pontos importantes a serem considerados ao fazer essa escolha, são:
+
+Tipo de aplicação
+É importante entender a natureza de sua aplicação, levando em conta se é uma aplicação web, um aplicativo móvel, um serviço back-end ou uma API. 
+Cada tipo terá suas próprias necessidades de infraestrutura e serviços específicos e identificar essas características 
+ajudará a escolher uma plataforma que suporte adequadamente as funcionalidades do seu aplicativo.
+
+Escalabilidade
+Avalie se a plataforma escolhida permite tanto a escalabilidade horizontal, que envolve adicionar mais servidores, 
+quanto a vertical, que aumenta os recursos dos servidores existentes. Além disso, considere o tráfego esperado para o seu aplicativo. 
+A plataforma deve ser capaz de lidar com picos de tráfego e crescer conforme a demanda do usuário.
+
+Localização geográfica
+A proximidade dos data centers e seus principais usuários é outro ponto essencial. 
+Escolher uma infraestrutura com data centers próximos pode reduzir a latência e melhorar a experiência do usuário. 
+Também é importante considerar regulamentações locais e requisitos de conformidade, 
+especialmente se o seu aplicativo lida com dados sensíveis ou regulamentados, como dados médicos ou financeiros.
+
+Custo
+O modelo de preço é outro aspecto crítico. 
+Compare modelos de preços, como pay-as-you-go ou assinaturas mensais/anuais, então escolha o que melhor se alinha com seu orçamento e uso previsto. 
+Avalie o custo-benefício considerando os recursos oferecidos, como armazenamento, transferência de dados e serviços adicionais.
+
+Segurança
+A segurança da infraestrutura é uma prioridade. Verifique as medidas de segurança implementadas pela plataforma, 
+incluindo firewalls, criptografia de dados e controle de acesso. Certificações e conformidade, como ISO 27001, SOC 2 ou GDPR, 
+são indicativos de uma infraestrutura segura.
+
+Facilidade de uso e integração
+Escolha uma plataforma que ofereça uma interface amigável e ferramentas de configuração simplificadas. 
+Além disso, a integração com ferramentas de DevOps, como CI/CD, monitoramento e gerenciamento de configuração, 
+pode facilitar significativamente o gerenciamento do seu aplicativo.
+
+Suporte e comunidade
+A qualidade e a disponibilidade do suporte técnico são essenciais. 
+Uma boa documentação e uma comunidade ativa também são valiosas, 
+oferecendo suporte e compartilhamento de boas práticas que podem ajudar a resolver problemas rapidamente.
+
+Plataformas para o deploy
+AWS
+A ferramenta que utilizamos no curso e que apresenta vantagens, por isso é um dos serviços mais populares atualmente. 
+Entretanto, este é um serviço pago. A AWS fornece algumas funcionalidades de forma gratuita nos primeiros 12 meses e após esse período, 
+ou caso você utilize algum serviço pago, a utilização gratuita é encerrada,
+
+Existem algumas outras opções de plataformas de deploy para você explorar em seus projetos Django REST.
+
+Fly.io
+O Fly.io é uma alternativa bastante conhecida para deploy, por sua simplicidade e facilidade de uso.
+
+Não existe um plano gratuito no Fly.io, mas é possível usar alguns recursos gratuitos em todos os planos. 
+O mais vantajoso para projetos pessoais é o Hobby plan, que oferece recursos gratuitos e só cobra pelos pagos conforme você os utiliza.
+
+A desvantagem dessa opção é que mesmo para usar somente as ferramentas gratuitas, é necessário informar os dados de cartão de crédito.
+
+Acesse o site do Fly.io ou ainda, clique para o deploy de uma aplicação em Django.
+
+Railway
+O Railway é uma plataforma de serviços em nuvem que possibilita o deploy de pequenas até grandes aplicações. ,
+Ela fornece um plano gratuito para você explorar os recursos sem exigir os dados de um cartão de crédito.
+
+Acesse o site do Railway e a documentação para o deploy de uma aplicação em Django.
+
+Render
+O Render é uma plataforma de serviço em nuvem para fazer o deploy e rodar suas aplicações de forma gratuita, 
+sem a necessidade de informar os dados de um cartão de crédito. Acesse a página do Render.
+
+Ele possui uma excelente documentação para orientar subir aplicações nas mais diversas linguagens. Acesse a documentação para o deploy em Django.
+
+PythonAnywhere
+O PythonAnywhere é um serviço da Anaconda que fornece um ambiente de desenvolvimento integrado e um serviço de hospedagem web baseado na linguagem de programação Python.
+
+Ele possibilita usar uma conta gratuita por tempo indeterminado, mas com algumas limitações, como um único web app. 
+Com ele, é possível realizar o deploy da sua API em Django REST.
+
+Não é necessário informar dados de cartão de crédito para usar a conta gratuita. Acesse o PythonAnywheree a documentação para deploy de uma aplicação Django.
+
+Claro, a lista apresentada aqui inclui apenas algumas opções possíveis para fazer o deploy de suas aplicações.
+
+É muito importante lembrar que os planos gratuitos geralmente possuem limitações de recursos, tais como largura de banda, 
+capacidade de armazenamento, horas de atividade e suporte técnico. 
+Para projetos maiores ou com necessidades específicas, pode ser necessário investir em um plano pago para obter melhor desempenho e recursos mais robustos.
+
+Antes de escolher um provedor de hospedagem, é importante revisar seus recursos, 
+valores e suporte para garantir que atendam às necessidades do seu projeto em termos de escala, desempenho e suporte técnico. 
+Além disso, lembre-se que as opções e preços podem mudar com o tempo, então, sempre verifique os sites oficiais dos provedores para obter as informações mais atualizadas.
+
