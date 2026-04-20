@@ -24,7 +24,7 @@ class MatriculaSerializer(serializers.ModelSerializer):
 
 class ListaMatriculasEstudanteSerializer(serializers.ModelSerializer):
     curso = serializers.ReadOnlyField(source='curso.descricao')
-    periodo = serializers.SerializerMethodField()
+    periodo = serializers.SerializerMethodField()   
     class Meta:
         model = Matricula
         fields = ['curso', 'periodo']

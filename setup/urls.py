@@ -28,6 +28,7 @@ router.register('matriculas', MatriculaViewSet, basename='Matriculas')
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('api-auth/', include('rest_framework.urls')),
     path('', include(router.urls)),
     path('estudantes/<int:pk>/matriculas/', ListaMatriculaEstudante.as_view()),
     path('cursos/<int:pk>/matriculas/', ListaMatriculaCurso.as_view()),
