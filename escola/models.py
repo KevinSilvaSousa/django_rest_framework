@@ -6,7 +6,7 @@ class Estudante(models.Model):
     nome = models.CharField(max_length = 100)
     email = models.EmailField(blank = False, max_length = 30)
     cpf = models.CharField(max_length = 11, unique=True)
-    data_nascimento = models.DateField()
+    data_nascimento = models.DateField(null=True, blank=True)
     celular = models.CharField(max_length = 14)
 
     def __str__(self):
@@ -38,5 +38,5 @@ class Matricula(models.Model):
         ("N", "Noturno"),
     )
     estudante = models.ForeignKey(Estudante, on_delete = models.CASCADE)
-    curso = models.ForeignKey(Curso, on_delete = models.CASCADE)
+    curso = models.ForeignKey(Curso, on_delete = models.CASCADE, null=True, blank=True)
     periodo = models.CharField(max_length = 1, choices = PERIODO,  blank= False, null = False, default = 'B')
