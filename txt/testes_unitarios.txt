@@ -1,0 +1,43 @@
+Os níveis de teste são uma forma de organizar as diferentes etapas de testes de software. 
+Cada nível possui uma finalidade específica, por isso devem ser realizados em sequência, 
+a fim de garantir que o software atenda às necessidades do utilizador final.
+
+Quanto mais abrangente e diversificado for o conjunto de testes realizados, maior será a qualidade e confiabilidade do produto entregue.
+
+Testes unitários
+
+Imagine que você está construindo uma estrutura complexa usando peças de Lego. 
+Cada peça representa um componente ou módulo do seu sistema de construção. 
+Você quer ter certeza de que todas as peças se encaixam perfeitamente e que a estrutura final é sólida e funcional.
+
+Primeiro, você examina cada peça individualmente, chamamos isso de testes unitários. 
+Na prática, esses testes são pequenos trechos de código ou scripts escritos para verificar se uma parte específica do código-fonte, 
+geralmente uma função ou método, está se comportando corretamente.
+
+Testes unitários são projetados para isolar e testar uma unidade de código de maneira independente, sem depender de outras partes do software. 
+Seu principal papel é identificar erros ou bugs no código de forma precoce, o que facilita a correção antes que o erro se propague para outras partes do software.
+
+Além disso, testes unitários asseguram que cada unidade de código funcione conforme o esperado, 
+contribuindo para a qualidade geral do software, 
+pois consequentemente unidades de código bem testadas são mais fáceis de manter e atualizar, 
+pois os testes fornecem uma verificação rápida de que as alterações não afetam o comportamento existente.
+
+
+Iniciamos explicando os testes unitários, que focam em unidades individuais do código, como funções, 
+métodos e classes, testando-as de forma isolada para garantir que funcionem corretamente.
+
+Em seguida, abordamos os testes de integração, que verificam se os diferentes componentes do sistema funcionam corretamente juntos. 
+Ao invés de focar em pontos individuais, esses testes se concentram na interação entre as unidades.
+
+Por fim, exploramos os testes end-to-end, que verificam todo o fluxo de uma aplicação completa, simulando as interações dos usuários finais. 
+Eles avaliam o comportamento do sistema como um todo, por exemplo, 
+simular um funcionário cadastrando um estudante e matriculando-o em um curso, navegando entre telas e realizando ações.
+
+Verificamos que a pirâmide de teste define os níveis de testes, enfatizando a necessidade de uma base sólida com testes unitários, 
+complementados pelos testes de integração e end-to-end para verificar o sistema completo. 
+A pirâmide também destaca a diferença de velocidade e custo entre os níveis, 
+com os testes unitários sendo os mais rápidos e baratos, e os testes end-to-end sendo os mais demorados e caros.
+
+Entendendo a importância dos testes automatizados e seus tipos, focamos na nossa aplicação, 
+aprendemos a configurar e executar testes de requisição de API no Thunder Client, 
+uma ferramenta que facilita o teste de endpoints e a validação de respostas.
